@@ -15,6 +15,11 @@ dist-ssr
 .env
 .env.local
 
+DESIGN.md
+auth0-verification-email-template.html
+AGENTS.md
+PROJECT.md
+
 
 # Editor directories and files
 .vscode/*
