@@ -1,9 +1,13 @@
-export type UserRequest = {
-    username: string;
-    email: string;
+export type CreateUserProfileRequest = {
+  username: string;
+};
+
+export type UpdateUserProfileRequest = {
+  username: string;
 };
 
 export type UserResponse = {
-    ername: string;
-    email: string;
+  id: number;
+  username: string;
+  email: string;
 };
